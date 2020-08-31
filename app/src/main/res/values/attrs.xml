@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundColorOfButtonStudent" format="color"/>
+        <attr name="backgroundColorOfButtonEmployer" format="color"/>
+        <attr name="textColorOfButton" format="color"/>
+        <attr name="backgroundColorOfDialog" format="color"></attr>
+        <attr name="backgroundColorOfCard" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="textColorOfWelcome" format="color"/>
+        <attr name="editTextColor" format="color"/>
+    </declare-styleable>
+</resources>

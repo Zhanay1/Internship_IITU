@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Internship</string>
+    <string name="student">Student</string>
+    <string name="manager">Manager</string>
+    <string name="certificates_contracts">Certificates &amp; contracts</string>
+    <string name="delete_contract">Delete contract</string>
+    <string name="export_to_docx">Export to docx</string>
+    <string name="download_contract">Download contract</string>
+    <string name="download_diary">Download Diary</string>
+    <string name="_8942">⋮</string>
+    <string name="date">Date</string>
+    <string name="file_name">File name</string>
+    <string-array name="typeOfReport">
+        <item>University</item>
+        <item>Practical work</item>
+        <item>Diploma work</item>
+    </string-array>
+
+    <string-array name="typeOfDiary">
+        <item>Project work</item>
+        <item>Practical work</item>
+        <item>Courses</item>
+    </string-array>
+
+    <string-array name="specialities">
+        <item>IS</item>
+        <item>CSSE</item>
+        <item>CS</item>
+        <item>CSp</item>
+        <item>FIN</item>
+        <item>ITM</item>
+        <item>JUR</item>
+        <item>MCM</item>
+        <item>RET</item>
+        <item>SIS</item>
+    </string-array>
+
+    <string-array name="courses">
+        <item>1 course</item>
+        <item>2 course</item>
+        <item>3 course</item>
+        <item>4 course</item>
+    </string-array>
+
+    <string-array name="specialitiesOfManagerActivity">
+        <item>All specialities</item>
+        <item>IS</item>
+        <item>CSSE</item>
+        <item>CS</item>
+        <item>CSp</item>
+        <item>FIN</item>
+        <item>ITM</item>
+        <item>JUR</item>
+        <item>MCM</item>
+        <item>RET</item>
+        <item>SIS</item>
+    </string-array>
+
+    <string-array name="coursesOfManagerActivity">
+        <item>All courses</item>
+        <item>1 course</item>
+        <item>2 course</item>
+        <item>3 course</item>
+        <item>4 course</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961776518145",
+    "firebase_url": "https://internship-iitu-28e2c.firebaseio.com",
+    "project_id": "internship-iitu-28e2c",
+    "storage_bucket": "internship-iitu-28e2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961776518145:android:b0bd8d49ff234d81ff6c00",
+        "android_client_info": {
+          "package_name": "com.example.practiceiitu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961776518145-f0t3sjabooq45lshi9ud0istntf11gbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practiceiitu",
+            "certificate_hash": "a9d5460e4fd464bb1aa8f18c48c16b0690240cf6"
+          }
+        },
+        {
+          "client_id": "961776518145-uo38nlr944oasbiifbd8jsurvf9pt1l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZniUb8VTqGSJ5MVAL20Xc6rGGirSLlIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961776518145-uo38nlr944oasbiifbd8jsurvf9pt1l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

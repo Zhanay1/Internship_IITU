@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/allerta</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+        <item name="backgroundColorOfButtonStudent">#5581F0</item>
+        <item name="backgroundColorOfButtonEmployer">#FF65A7</item>
+        <item name="textColorOfButton">#fff</item>
+        <item name="backgroundColor">#fff</item>
+        <item name="textColorOfWelcome">#000</item>
+        <item name="editTextColor">#A2B2D0</item>
+        <item name="backgroundColorOfDialog">#E9EDF0</item>
+        <item name="backgroundColorOfCard">#FAFBFF</item>
+        <item name="android:actionMenuTextColor">#A2B2D0</item>
+        <item name="android:itemTextAppearance">@style/CustomMenuItemTextColor</item>
+    </style>
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="parent.TextLayout">
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="styleOfPopUp" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">?attr/editTextColor</item>
+        <item name="android:itemBackground">?attr/backgroundColorOfCard</item>
+    </style>
+    <style name="CustomMenuItemTextColor" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?attr/editTextColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

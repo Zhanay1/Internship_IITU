@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="my_dialog_theme" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="colorAccent">#67ACFE</item>
+        <item name="android:fontFamily">@font/allerta</item>
+    </style>
+</resources>

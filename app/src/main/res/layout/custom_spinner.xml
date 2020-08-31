@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableEnd="@drawable/ic_drop_down_arrow"
+    android:ellipsize="marquee"
+    android:fontFamily="@font/allerta"
+    android:singleLine="true"
+    android:textColor="#A2B2D0" />

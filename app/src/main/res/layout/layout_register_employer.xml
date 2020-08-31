@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:src="@drawable/register_image" />
+
+
+    <TextView
+        style="@style/viewParent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/allerta"
+        android:text="Manager Registration"
+        android:textColor="?attr/textColorOfWelcome"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputEmail"
+        style="@style/parent.TextLayout"
+        android:layout_marginTop="5dp"
+        android:textColorHint="?attr/editTextColor">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            style="@style/modifiedEditText"
+            android:backgroundTint="?attr/editTextColor"
+            android:fontFamily="@font/allerta"
+            android:hint="Email"
+            android:inputType="text"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPassword"
+        style="@style/parent.TextLayout"
+        android:layout_marginTop="5dp"
+        android:textColorHint="?attr/editTextColor"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#6F7F9D">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/modifiedEditText"
+            android:backgroundTint="?attr/editTextColor"
+            android:fontFamily="@font/allerta"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCompanyName"
+        style="@style/parent.TextLayout"
+        android:layout_marginTop="5dp"
+        android:textColorHint="?attr/editTextColor">
+
+        <EditText
+            android:id="@+id/editTextCompanyName"
+            style="@style/modifiedEditText"
+            android:backgroundTint="?attr/editTextColor"
+            android:fontFamily="@font/allerta"
+            android:hint="Department"
+            android:inputType="text"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputRegCode"
+        style="@style/parent.TextLayout"
+        android:layout_marginTop="5dp"
+        android:textColorHint="?attr/editTextColor">
+
+        <EditText
+            android:id="@+id/editTextRegCode"
+            style="@style/modifiedEditText"
+            android:backgroundTint="?attr/editTextColor"
+            android:fontFamily="@font/allerta"
+            android:hint="Registration code"
+            android:inputType="text"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPhoneNumber"
+        style="@style/parent.TextLayout"
+        android:layout_marginTop="5dp"
+        android:textColorHint="?attr/editTextColor">
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            style="@style/modifiedEditText"
+            android:backgroundTint="?attr/editTextColor"
+            android:fontFamily="@font/allerta"
+            android:hint="Phone number"
+            android:inputType="text"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonStudent"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_student"
+        android:clickable="true"
+        android:fontFamily="@font/allerta"
+        android:onClick="onClickRegistrationEmployer"
+        android:padding="8dp"
+        android:text="Register"
+        android:textColor="?attr/textColorOfButton" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:fontFamily="@font/allerta"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Already Have an Account?\nLogin Now."
+        android:textAlignment="center"
+        android:textColor="?attr/textColorOfWelcome"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
